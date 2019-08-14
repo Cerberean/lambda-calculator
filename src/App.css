@@ -1,0 +1,53 @@
+.container{
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 16px;
+    height: 500px;
+}
+
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5% 5%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.calcButton{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.allButtons{
+    /* border: 2px solid lightblue; */
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 5%;
+}
+
+.leftButtons{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.leftButtons div button{
+    margin: 3% 3%;
+    border-radius: 50%;
+}
+
+.rightButtons{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.rightButtons button{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin: 24% 0;
+    border-radius: 50%;
+}
